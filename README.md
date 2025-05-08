@@ -1,5 +1,3 @@
-# multi-step-form-react
-
 # Multi-Step Form in React
 
 A modern, responsive **multi-step form** built using **React** with features like **input validation**, **conditional fields**, and a **clean UI**. Perfect for applications, surveys, or onboarding flows.
