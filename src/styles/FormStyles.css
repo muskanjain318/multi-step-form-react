@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  padding: 20px;
+}
+/* Glass effect + gradient background inside the form */
+.form-container {
+  background: rgba(255, 255, 255, 0.1); /* Glass */
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 16px;
+  padding: 50px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+  color: black;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Form heading */
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #ffffff;
+}
+
+/* Labels */
+.form-container label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* Inputs & Select */
+.form-container select,
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="number"],
+.form-container input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  color: black;
+  box-sizing: border-box;
+  backdrop-filter: blur(10px);
+}
+
+/* File input text color fix */
+.form-container input::file-selector-button {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #fff;
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+/* Button Group */
+.button-group {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Glassy Gradient Buttons */
+.submit-btn, .back-btn, .close-btn {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.submit-btn:hover,
+.back-btn:hover,
+.close-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Back button override */
+.back-btn {
+  margin-right: 10px;
+}
+
+/* Popup Overlay */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(15, 12, 41, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Popup Box */
+.popup-box {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  padding: 30px;
+  border-radius: 16px;
+  width: 320px;
+  text-align: center;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.popup-box h3 {
+  font-size: 22px;
+  color: #00ffcc;
+  margin-bottom: 10px;
+}
+
+.popup-box p {
+  font-size: 16px;
+  color: #e0e0e0;
+}
+.next-btn {
+  display: block;
+  margin: 20px auto 0 auto; /* Top margin and auto for left/right centering */
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.next-btn:hover {
+  background-color: #ddd;
+}
