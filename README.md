@@ -8,8 +8,13 @@ A modern, responsive **multi-step form** built using **React** with features lik
 
 ## 📷 Screenshots
 
-![Step 1 Screenshot](./screenshots/step1.png)
-![Step 2 Screenshot](./screenshots/step2.png)
+![image](https://github.com/user-attachments/assets/bef1184b-7595-4879-988d-897feff58bdb)
+
+![image](https://github.com/user-attachments/assets/796d62e8-cb14-4783-9880-459f1b29773e)
+![image](https://github.com/user-attachments/assets/228dae45-7695-411b-bf25-413e35e4d9b0)
+![image](https://github.com/user-attachments/assets/c8dc3a74-31b1-4048-91e9-130da79f0dfc)
+![image](https://github.com/user-attachments/assets/1a3dec01-a104-46ee-8b56-3244008f4418)
+
 
 > (Replace with actual image links from your project folder or upload URLs.)
 
@@ -56,7 +61,7 @@ multi-step-form/
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/your-username/multi-step-form.git
+git clone https://github.com/muskanjain318/multi-step-form.git
 cd multi-step-form
 npm install
 npm start
@@ -64,5 +69,5 @@ npm start
 
 Muskan Jain
 👩‍💻 Front-End Developer | React | JavaScript | WordPress
-📫 Connect on LinkedIn
-🌐 Portfolio (if any)
+📫 https://www.linkedin.com/in/muskan-jain-b47aba207/
+🌐 (https://muskanjain318.github.io/portfoli-site/)
